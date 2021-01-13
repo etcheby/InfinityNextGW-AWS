@@ -1,5 +1,5 @@
 # InfinityNextGW-AWS
-Deploys CloudGuard WAAP Infinity-Next Gateway as a VM in existing VPC. VPC must have existing public &amp; private subnets, IGW. 
+Deploys CloudGuard WAAP Infinity-Next Gateway as a VM running Check Point NGNIX Reverse-Proxy and Nano agent that connects to Infinity Next Fog in existing VPC. VPC must have existing public &amp; private subnets, IGW. 
 It also deploys an AWS Linux Instance with public IP running BWapp Pen Test app running on docker container on port 7070
 We assign public IP to instance so you can test both the Web Apps attacks with Infinity Next Gateway reverse-proxy inline & without to understand Check Point WAAP Infinity Next Gateway solution capabilities. 
 
