@@ -65,6 +65,6 @@ variable "password_hash" {
 variable "infinity_token" {
     description = "Token generated from Infinity Portal for Gateway Authentication & Connectivity"
     type        = string
-    default     = "6ddb0096-a5fa-419e-abf7-f5272ed9ad94-001723fe-945c-4c84-be67-45870e796855"
+    default     = ""
 }
 
